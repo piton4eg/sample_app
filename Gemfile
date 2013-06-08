@@ -15,8 +15,8 @@ group :test do
   gem 'selenium-webdriver', '2.0.0'
   gem 'capybara', '2.1.0'
 
-  gem 'rb-inotify', '0.9.0'
-  gem 'libnotify', '0.8.0'
+  gem 'rb-fsevent', '0.9.3', :require => false
+  gem 'growl', '1.0.3'
   gem "factory_girl_rails", "~> 4.2.1"
 
   gem 'cucumber-rails', '1.3.0', :require => false
